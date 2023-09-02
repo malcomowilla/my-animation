@@ -1,0 +1,114 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.content{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./my-image1.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* transition: background-image 5s; */
+    animation-name: fade;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes fade {
+    0%{background-image: url(./my-image2.jpeg);}
+    20%{background-image: url(./my-image3.jpeg)}
+    40%{background-image: url(./my-image4.jpeg);}
+    60%{background-image: url(./my-image5.jpeg);}
+    80%{background-image: url(./my-image6.jpeg);}
+    100%{background-image: url(./my-image7.webp);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
